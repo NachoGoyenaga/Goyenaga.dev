@@ -1,0 +1,126 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "resume": "Currículum",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, mi nombre es",
+    "name": "Ignacio Goyenaga.",
+    "role": "Ingeniero en Sistemas | Desarrollador Backend & Bases de Datos",
+    "description": "Especializado en arquitectura Backend, .NET (C#), bases de datos SQL Server y soluciones cloud en Microsoft Azure. Apasionado por la optimización de procesos, modelado de datos y desarrollo de software de alto impacto.",
+    "cta_projects": "Ver Proyectos",
+    "cta_resume": "Ver Currículum",
+    "cta_contact": "Contáctame"
+  },
+  "home": {
+    "featured_title": "Proyectos Destacados",
+    "see_all": "Ver todos"
+  },
+  "projects": {
+    "title": "Proyectos y Experiencia",
+    "subtitle": "Casos reales de desarrollo, arquitectura backend, modelado relacional y despliegues en la nube.",
+    "items": [
+      {
+        "id": "bd-cantonal",
+        "title": "Base de Datos Estadística Cantonal de Costa Rica",
+        "client": "Consejo de Promoción de la Competitividad de Costa Rica",
+        "period": "Septiembre 2025 - Diciembre 2025",
+        "type": "Práctica Profesional Supervisada",
+        "summary": "Diseño, estructuración y migración de base de datos relacional para procesar información estadística de los cantones de Costa Rica.",
+        "description": "Analicé los requerimientos funcionales del proyecto mediante reuniones con los responsables de la organización para definir las necesidades del sistema. Diseñé la estructura de la solución utilizando diagramas y casos de uso para documentar y planificar el desarrollo. Ejecuté la migración de la información existente hacia la nueva base de datos, asegurando la organización e integridad de los datos. Implementé funciones y procedimientos almacenados (Stored Procedures) para automatizar cálculos estadísticos que anteriormente se realizaban manualmente en Microsoft Excel. Implementé la solución en Microsoft Azure para su administración y disponibilidad en la nube.",
+        "tags": ["SQL Server", "Microsoft Azure", "Stored Procedures", "ETL", "Modelado Relacional"]
+      },
+      {
+        "id": "academa",
+        "title": "Sistema Web de Gestión & API REST",
+        "client": "ACADEMA",
+        "period": "Septiembre 2024 - Abril 2025",
+        "type": "Programador | Trabajo Comunal Universitario",
+        "summary": "Sistema web de gestión para la administración de matrículas, estudiantes, profesores, clases e inventario de instrumentos.",
+        "description": "Participé en el desarrollo de un sistema web integral. Desarrollé el Backend de la aplicación utilizando .NET (C#). Diseñé e implementé la base de datos relacional en Microsoft SQL Server. Desarrollé una API REST para integrar la aplicación web con la base de datos. Implementé funcionalidades para el envío automatizado de correos electrónicos, gestión segura de contraseñas y procesamiento de información. Colaboré con el desarrollo del Frontend utilizando React, HTML, CSS y JavaScript, trabajando en coordinación con un equipo multidisciplinario.",
+        "tags": [".NET (C#)", "SQL Server", "REST API", "React", "JavaScript", "Auth Segura"]
+      },
+      {
+        "id": "your-first-job",
+        "title": "yourFirstJob - App Multiplataforma",
+        "client": "Proyecto Académico",
+        "period": "Enero 2024 - Abril 2024",
+        "type": "Aplicación Móvil Multiplataforma",
+        "summary": "Aplicación móvil de búsqueda de empleo orientada a estudiantes universitarios.",
+        "description": "Desarrollé una aplicación de búsqueda de empleo dirigida a estudiantes utilizando .NET MAUI. Diseñé las interfaces y organicé la usabilidad de la aplicación. Desarrollé una API utilizando C#. Diseñé y desarrollé la base de datos utilizando Microsoft SQL Server, e implementé tanto la API como la base de datos en Microsoft Azure.",
+        "tags": [".NET MAUI", "C# API", "SQL Server", "Microsoft Azure", "Móvil"]
+      }
+    ]
+  },
+  "resume": {
+    "title": "Currículum Vitae",
+    "profile_summary": "Ingeniero en Sistemas Computacionales con experiencia en desarrollo de soluciones de software, especializado en Backend, .NET (C#), SQL Server, APIs REST y Microsoft Azure. Cuento con experiencia en análisis de requerimientos, diseño y desarrollo de bases de datos, automatización de procesos y desarrollo de aplicaciones web y móviles. Destaco por mi pensamiento analítico, liderazgo, resolución de problemas, adaptabilidad y aprendizaje rápido.",
+    "view_pdf": "Ver PDF",
+    "download_pdf": "Descargar PDF",
+    "sections": {
+      "experience": "Experiencia Laboral y Práctica",
+      "skills": "Habilidades Técnicas",
+      "education": "Educación",
+      "certifications": "Certificaciones",
+      "details": "Detalles Profesionales"
+    },
+    "skills_categories": [
+      {
+        "category": "Bases de Datos",
+        "items": ["SQL Server (consultas, modelado, procedimientos almacenados)", "MySQL", "Migración e Integridad de Datos"]
+      },
+      {
+        "category": "Backend y APIs",
+        "items": ["APIs RESTful en .NET (C#)", "APIs RESTful en Java", "C#", "Java", "Python", "C++"]
+      },
+      {
+        "category": "Cloud & Desarrollo",
+        "items": ["Microsoft Azure", ".NET MAUI (apps móviles multiplataforma)", "Java (apps de escritorio)"]
+      },
+      {
+        "category": "Frontend y Web",
+        "items": ["React", "Vite", "NextJS", "HTML5", "CSS3", "JavaScript"]
+      }
+    ],
+    "education_items": [
+      {
+        "degree": "Bachillerato en Ingeniería en Sistemas Computacionales",
+        "institution": "Universidad Latina de Costa Rica",
+        "year": "2025"
+      }
+    ],
+    "certification_items": [
+      {
+        "name": "Cisco CCNA 2 - Switching, Routing and Wireless Essentials (CCNAv7)",
+        "issuer": "Cisco Networking Academy",
+        "year": "2023"
+      }
+    ],
+    "info": {
+      "location": "Heredia, Costa Rica",
+      "phone": "8433-0637",
+      "email": "nacho.goyenaga@gmail.com",
+      "visa": "U.S. Visa & Licencia B1"
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto en mente, una vacante o una consulta técnica? Contáctame directamente.",
+    "email_label": "Correo Electrónico",
+    "phone_label": "Teléfono",
+    "location_label": "Ubicación",
+    "form": {
+      "name": "Nombre completo",
+      "email": "Correo electrónico",
+      "message": "Mensaje o propuesta",
+      "submit": "Enviar Mensaje",
+      "success_title": "¡Mensaje Enviado!",
+      "success_desc": "Gracias por escribir. Me pondré en contacto contigo a la brevedad."
+    }
+  },
+  "footer": {
+    "text": "Ignacio Goyenaga — Heredia, Costa Rica."
+  }
+}
