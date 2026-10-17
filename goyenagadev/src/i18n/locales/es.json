@@ -8,8 +8,8 @@
   "hero": {
     "greeting": "Hola, mi nombre es",
     "name": "Ignacio Goyenaga.",
-    "role": "Ingeniero en Sistemas | Desarrollador Backend & Bases de Datos",
-    "description": "Especializado en arquitectura Backend, .NET (C#), bases de datos SQL Server y soluciones cloud en Microsoft Azure. Apasionado por la optimización de procesos, modelado de datos y desarrollo de software de alto impacto.",
+    "role": "Ingeniero en Sistemas | Full Stack Engineer",
+    "description": "Especializado en desarrollo Full Stack con foco en arquitecturas backend robustas en .NET (C#), bases de datos SQL Server, soluciones cloud en Azure e interfaces modernas con React y Next.js. Apasionado por la optimización de procesos, modelado de datos y desarrollo de software de alto impacto.",
     "cta_projects": "Ver Proyectos",
     "cta_resume": "Ver Currículum",
     "cta_contact": "Contáctame"
@@ -56,7 +56,7 @@
   },
   "resume": {
     "title": "Currículum Vitae",
-    "profile_summary": "Ingeniero en Sistemas Computacionales con experiencia en desarrollo de soluciones de software, especializado en Backend, .NET (C#), SQL Server, APIs REST y Microsoft Azure. Cuento con experiencia en análisis de requerimientos, diseño y desarrollo de bases de datos, automatización de procesos y desarrollo de aplicaciones web y móviles. Destaco por mi pensamiento analítico, liderazgo, resolución de problemas, adaptabilidad y aprendizaje rápido.",
+    "profile_summary": "Ingeniero en Sistemas Computacionales y Full Stack Engineer con experiencia en desarrollo de soluciones de software de extremo a extremo: desde interfaces de usuario con React, Next.js y .NET MAUI hasta APIs RESTful robustas en .NET (C#), modelado relacional en Microsoft SQL Server y despliegues en Azure. Destaco por mi pensamiento analítico, liderazgo técnico, resolución de problemas y adaptabilidad en proyectos multidisciplinarios.",
     "view_pdf": "Ver PDF",
     "download_pdf": "Descargar PDF",
     "sections": {
