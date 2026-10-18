@@ -1,0 +1,36 @@
+{
+  "title": "Projects & Experience",
+  "subtitle": "Real-world engineering cases across software development, backend architectures, relational data modeling, and cloud deployments.",
+  "items": [
+    {
+      "id": "bd-cantonal",
+      "title": "Cantonal Statistical Database of Costa Rica",
+      "client": "Council for the Promotion of Competitiveness of Costa Rica",
+      "period": "September 2025 - December 2025",
+      "type": "Supervised Professional Internship",
+      "summary": "Design, structuring, and migration of a relational database to process and maintain statistical data for Costa Rican cantons.",
+      "description": "Developed a relational database in Microsoft SQL Server to store and process statistical indicators across cantons in Costa Rica. Analyzed functional requirements through stakeholder meetings to define system needs. Modeled architecture using diagrams and use cases. Migrated legacy data ensuring consistency and relational integrity. Implemented Stored Procedures and functions to automate calculations previously done manually in Excel, deploying the entire solution to Microsoft Azure.",
+      "tags": ["SQL Server", "Microsoft Azure", "Stored Procedures", "ETL", "Relational Modeling"]
+    },
+    {
+      "id": "academa",
+      "title": "Management Web System & REST API",
+      "client": "ACADEMA",
+      "period": "September 2024 - April 2025",
+      "type": "Developer | University Community Work",
+      "summary": "Comprehensive web management platform for student enrollment, faculty, courses, and musical instrument inventory.",
+      "description": "Participated in the development of an end-to-end web system. Built the backend and REST API in .NET (C#) to integrate the web client with SQL Server. Designed and implemented the relational schema in Microsoft SQL Server. Implemented automated email notifications, secure password handling, and data processing pipelines. Collaborated on the frontend using React, HTML, CSS, and JavaScript in a cross-functional team.",
+      "tags": [".NET (C#)", "SQL Server", "REST API", "React", "JavaScript", "Secure Auth"]
+    },
+    {
+      "id": "your-first-job",
+      "title": "yourFirstJob - Cross-Platform App",
+      "client": "Academic Project",
+      "period": "January 2024 - April 2024",
+      "type": "Cross-Platform Mobile Application",
+      "summary": "Mobile job search application built for university students seeking their first career opportunities.",
+      "description": "Developed a job search application for students using .NET MAUI. Designed user interfaces and usability workflows. Built a backend API in C#, structured the database using Microsoft SQL Server, and deployed both components to Microsoft Azure.",
+      "tags": [".NET MAUI", "C# API", "SQL Server", "Microsoft Azure", "Mobile"]
+    }
+  ]
+}

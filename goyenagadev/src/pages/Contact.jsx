@@ -3,15 +3,15 @@ import SEO from '../components/SEO';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Contact() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('contact');
 
   return (
     <>
-      <SEO title={t('contact.title')} description={t('contact.subtitle')} />
+      <SEO title={t('title')} description={t('subtitle')} />
       <div className="max-w-xl mx-auto space-y-8">
         <div>
-          <h1 className="text-2xl font-bold text-white mb-2">{t('contact.title')}</h1>
-          <p className="text-neutral-400 text-sm leading-relaxed">{t('contact.subtitle')}</p>
+          <h1 className="text-2xl font-bold text-white mb-2">{t('title')}</h1>
+          <p className="text-neutral-400 text-sm leading-relaxed">{t('subtitle')}</p>
         </div>
 
         <div className="space-y-4">
@@ -23,7 +23,7 @@ export default function Contact() {
               <Mail size={18} />
             </div>
             <div>
-              <span className="text-[11px] font-mono text-neutral-500 block">{t('contact.email_label')}</span>
+              <span className="text-[11px] font-mono text-neutral-500 block">{t('email_label')}</span>
               <span className="text-sm text-neutral-200 group-hover:text-emerald-400 transition-colors">nacho.goyenaga@gmail.com</span>
             </div>
           </a>
@@ -33,7 +33,7 @@ export default function Contact() {
               <Phone size={18} />
             </div>
             <div>
-              <span className="text-[11px] font-mono text-neutral-500 block">{t('contact.phone_label')}</span>
+              <span className="text-[11px] font-mono text-neutral-500 block">{t('phone_label')}</span>
               <span className="text-sm text-neutral-200">+506 8433-0637</span>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function Contact() {
               <MapPin size={18} />
             </div>
             <div>
-              <span className="text-[11px] font-mono text-neutral-500 block">{t('contact.location_label')}</span>
+              <span className="text-[11px] font-mono text-neutral-500 block">{t('location_label')}</span>
               <span className="text-sm text-neutral-200">Heredia, Costa Rica</span>
             </div>
           </div>

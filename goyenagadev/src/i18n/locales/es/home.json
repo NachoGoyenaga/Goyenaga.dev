@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "greeting": "Ingeniero en Sistemas & Desarrollador de Software",
+    "headline_1": "Transformo requerimientos en",
+    "headline_gradient": "soluciones digitales completas.",
+    "role": "Desarrollo Full Stack • Arquitectura Backend • Bases de Datos",
+    "description": "Diseño y construyo proyectos de software de principio a fin: desde interfaces web ágiles y modernas, hasta sistemas backend escalables, bases de datos optimizadas y despliegue en la nube. Convierto ideas complejas en productos estables y listos para producción.",
+    "cta_projects": "Ver Soluciones",
+    "cta_resume": "Mi Trayectoria",
+    "badge_status": "Disponible para nuevos proyectos y roles"
+  },
+  "featured_title": "Proyectos y Casos Reales",
+  "see_all": "Explorar catálogo completo"
+}

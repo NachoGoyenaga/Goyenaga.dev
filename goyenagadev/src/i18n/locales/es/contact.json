@@ -1,0 +1,15 @@
+{
+  "title": "Contacto",
+  "subtitle": "¿Tienes un proyecto en mente, una vacante o una consulta técnica? Contáctame directamente.",
+  "email_label": "Correo Electrónico",
+  "phone_label": "Teléfono",
+  "location_label": "Ubicación",
+  "form": {
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "message": "Mensaje o propuesta",
+    "submit": "Enviar Mensaje",
+    "success_title": "¡Mensaje Enviado!",
+    "success_desc": "Gracias por comunicarte. Me pondré en contacto contigo a la brevedad."
+  }
+}

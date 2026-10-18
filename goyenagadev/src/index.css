@@ -2,12 +2,53 @@
 
 @layer base {
   body {
-    background-color: #0a0a0a;
+    background-color: #080808;
     color: #e5e5e5;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
   }
 
-  code, kbd, samp, pre {
+  code, pre, .font-mono {
     font-family: 'JetBrains Mono', monospace;
   }
+}
+
+/* Animación del texto con gradiente verde continuo */
+@keyframes text-gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-text-gradient {
+  background-size: 200% auto;
+  animation: text-gradient-shift 5s ease infinite;
+}
+
+/* Luces ambientales que respiran y se mueven lentamente */
+@keyframes ambient-float {
+  0%, 100% {
+    transform: translate(0px, 0px) scale(1);
+    opacity: 0.12;
+  }
+  50% {
+    transform: translate(30px, -25px) scale(1.15);
+    opacity: 0.22;
+  }
+}
+
+.animate-ambient {
+  animation: ambient-float 9s ease-in-out infinite;
+}
+
+.animate-ambient-delayed {
+  animation: ambient-float 12s ease-in-out infinite 3s;
+}
+
+/* Malla técnica tenue de fondo */
+.bg-grid-subtle {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
 }

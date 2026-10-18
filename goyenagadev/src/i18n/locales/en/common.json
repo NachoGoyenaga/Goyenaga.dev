@@ -1,0 +1,11 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "resume": "Resume",
+    "contact": "Contact"
+  },
+  "footer": {
+    "text": "Ignacio Goyenaga — Heredia, Costa Rica."
+  }
+}

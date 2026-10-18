@@ -2,19 +2,25 @@ import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
 
 export default function Projects() {
-  const { t } = useTranslation();
-  const projects = t('projects.items', { returnObjects: true }) || [];
+  const { t } = useTranslation('projects');
+  
+  // Le indicamos explícitamente el namespace 'projects'
+  const rawProjects = t('items', { ns: 'projects', returnObjects: true });
+  const projects = Array.isArray(rawProjects) ? rawProjects : [];
 
   return (
     <>
-      <SEO title={t('projects.title')} description={t('projects.subtitle')} />
+      <SEO 
+        title={t('title', { ns: 'projects' })} 
+        description={t('subtitle', { ns: 'projects' })} 
+      />
       <div className="space-y-10">
         <div>
           <h1 className="text-2xl font-bold text-white mb-2">
-            {t('projects.title')}
+            {t('title', { ns: 'projects' })}
           </h1>
           <p className="text-neutral-400 text-sm">
-            {t('projects.subtitle')}
+            {t('subtitle', { ns: 'projects' })}
           </p>
         </div>
 
@@ -35,7 +41,7 @@ export default function Projects() {
                 {proj.description}
               </p>
               <div className="flex flex-wrap gap-2">
-                {proj.tags.map((tag, idx) => (
+                {Array.isArray(proj.tags) && proj.tags.map((tag, idx) => (
                   <span 
                     key={idx} 
                     className="text-xs font-mono text-emerald-300 bg-emerald-500/[0.05] border border-emerald-500/20 px-2.5 py-1 rounded"

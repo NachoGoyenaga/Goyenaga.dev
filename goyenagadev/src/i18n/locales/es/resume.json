@@ -1,0 +1,51 @@
+{
+  "title": "Currículum Vitae",
+  "profile_summary": "Ingeniero en Sistemas Computacionales y Full Stack Engineer con experiencia en desarrollo de soluciones de software de extremo a extremo: desde interfaces de usuario con React, Next.js y .NET MAUI hasta APIs RESTful robustas en .NET (C#), modelado relacional en Microsoft SQL Server y despliegues en Azure. Destaco por mi pensamiento analítico, liderazgo técnico, resolución de problemas y adaptabilidad en proyectos multidisciplinarios.",
+  "view_pdf": "Ver PDF",
+  "download_pdf": "Descargar PDF",
+  "sections": {
+    "experience": "Experiencia Laboral y Práctica",
+    "skills": "Habilidades Técnicas",
+    "education": "Educación",
+    "certifications": "Certificaciones",
+    "details": "Detalles Profesionales"
+  },
+  "skills_categories": [
+    {
+      "category": "Bases de Datos",
+      "items": ["Microsoft SQL Server (consultas, modelado, stored procedures)", "MySQL", "Migración e Integridad de Datos"]
+    },
+    {
+      "category": "Backend y APIs",
+      "items": ["APIs RESTful en .NET (C#)", "APIs RESTful en Java", "C#", "Java", "Python", "C++"]
+    },
+    {
+      "category": "Frontend y Web",
+      "items": ["React", "Vite", "NextJS", "HTML5", "CSS3", "JavaScript"]
+    },
+    {
+      "category": "Cloud, Móvil & Redes",
+      "items": ["Microsoft Azure", ".NET MAUI (apps multiplataforma)", "Java (apps de escritorio)", "Cisco CCNA 2"]
+    }
+  ],
+  "education_items": [
+    {
+      "degree": "Bachillerato en Ingeniería en Sistemas Computacionales",
+      "institution": "Universidad Latina de Costa Rica",
+      "year": "2025"
+    }
+  ],
+  "certification_items": [
+    {
+      "name": "Cisco CCNA 2 - Switching, Routing and Wireless Essentials (CCNAv7)",
+      "issuer": "Cisco Networking Academy",
+      "year": "2023"
+    }
+  ],
+  "info": {
+    "location": "Heredia, Costa Rica",
+    "phone": "8433-0637",
+    "email": "nacho.goyenaga@gmail.com",
+    "visa": "U.S. Visa & Licencia B1"
+  }
+}

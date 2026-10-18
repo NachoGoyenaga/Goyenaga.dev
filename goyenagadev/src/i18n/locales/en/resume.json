@@ -1,0 +1,51 @@
+{
+  "title": "Curriculum Vitae",
+  "profile_summary": "Computer Systems Engineer and Full Stack Engineer experienced in end-to-end software development: from responsive client interfaces using React, Next.js, and .NET MAUI to high-performance RESTful APIs in .NET (C#), relational database modeling in SQL Server, and cloud deployments on Azure. Known for analytical thinking, problem-solving, and cross-functional team delivery.",
+  "view_pdf": "View PDF",
+  "download_pdf": "Download PDF",
+  "sections": {
+    "experience": "Work Experience & Internships",
+    "skills": "Technical Skills",
+    "education": "Education",
+    "certifications": "Certifications",
+    "details": "Professional Details"
+  },
+  "skills_categories": [
+    {
+      "category": "Databases",
+      "items": ["Microsoft SQL Server (queries, modeling, stored procedures)", "MySQL", "Data Migration & Integrity"]
+    },
+    {
+      "category": "Backend & APIs",
+      "items": ["RESTful APIs in .NET (C#)", "RESTful APIs in Java", "C#", "Java", "Python", "C++"]
+    },
+    {
+      "category": "Frontend & Web",
+      "items": ["React", "Vite", "NextJS", "HTML5", "CSS3", "JavaScript"]
+    },
+    {
+      "category": "Cloud, Mobile & Networking",
+      "items": ["Microsoft Azure", ".NET MAUI (cross-platform mobile)", "Java (desktop apps)", "Cisco CCNA 2"]
+    }
+  ],
+  "education_items": [
+    {
+      "degree": "Bachelor's Degree in Computer Systems Engineering",
+      "institution": "Universidad Latina de Costa Rica",
+      "year": "2025"
+    }
+  ],
+  "certification_items": [
+    {
+      "name": "Cisco CCNA 2 - Switching, Routing and Wireless Essentials (CCNAv7)",
+      "issuer": "Cisco Networking Academy",
+      "year": "2023"
+    }
+  ],
+  "info": {
+    "location": "Heredia, Costa Rica",
+    "phone": "+506 8433-0637",
+    "email": "nacho.goyenaga@gmail.com",
+    "visa": "U.S. Visa & B1 Driver's License"
+  }
+}

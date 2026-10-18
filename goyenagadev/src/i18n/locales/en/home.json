@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "greeting": "Systems Engineer & Software Developer",
+    "headline_1": "Transforming ideas into",
+    "headline_gradient": "complete digital solutions.",
+    "role": "Full Stack Delivery • Backend Architecture • Database Engineering",
+    "description": "I engineer software solutions from start to finish: from modern, responsive web experiences to scalable backend APIs, optimized databases, and cloud deployments. Turning business requirements into production-ready software.",
+    "cta_projects": "View Solutions",
+    "cta_resume": "View Career",
+    "badge_status": "Available for new projects & full-time roles"
+  },
+  "featured_title": "Featured Real-World Projects",
+  "see_all": "View all projects"
+}

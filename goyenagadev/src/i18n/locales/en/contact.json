@@ -1,0 +1,15 @@
+{
+  "title": "Contact",
+  "subtitle": "Have a project, job opening, or technical inquiry? Feel free to reach out directly.",
+  "email_label": "Email",
+  "phone_label": "Phone",
+  "location_label": "Location",
+  "form": {
+    "name": "Full name",
+    "email": "Email address",
+    "message": "Message or proposal",
+    "submit": "Send Message",
+    "success_title": "Message Sent!",
+    "success_desc": "Thank you for reaching out. I will get back to you shortly."
+  }
+}

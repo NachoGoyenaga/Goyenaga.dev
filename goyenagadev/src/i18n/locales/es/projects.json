@@ -1,0 +1,36 @@
+{
+  "title": "Proyectos y Experiencia",
+  "subtitle": "Casos reales de desarrollo de software, arquitectura backend, modelado de datos e interfaces frontend.",
+  "items": [
+    {
+      "id": "bd-cantonal",
+      "title": "Base de Datos Estadística Cantonal de Costa Rica",
+      "client": "Consejo de Promoción de la Competitividad de Costa Rica",
+      "period": "Septiembre 2025 - Diciembre 2025",
+      "type": "Práctica Profesional Supervisada",
+      "summary": "Diseño, estructuración y migración de base de datos relacional para procesar información estadística de los cantones de Costa Rica.",
+      "description": "Desarrollé una base de datos relacional en Microsoft SQL Server para el almacenamiento y procesamiento de datos estadísticos de los cantones de Costa Rica. Analicé los requerimientos funcionales mediante reuniones con directores para definir las necesidades del sistema. Diseñé la solución mediante diagramas y casos de uso. Ejecuté la migración asegurando la consistencia e integridad de los datos. Implementé Stored Procedures y funciones para automatizar cálculos antes hechos manualmente en Excel, y desplegué la solución en Microsoft Azure.",
+      "tags": ["SQL Server", "Microsoft Azure", "Stored Procedures", "ETL", "Modelado Relacional"]
+    },
+    {
+      "id": "academa",
+      "title": "Sistema Web de Gestión & API REST",
+      "client": "ACADEMA",
+      "period": "Septiembre 2024 - Abril 2025",
+      "type": "Programador | Trabajo Comunal Universitario",
+      "summary": "Sistema web integral para administración de matrículas, estudiantes, profesores, clases e inventario de instrumentos.",
+      "description": "Participé en el desarrollo de un sistema web integral. Desarrollé el Backend y la API REST en .NET (C#) para conectar la interfaz web con SQL Server. Diseñé e implementé la base de datos relacional en Microsoft SQL Server. Implementé funcionalidades para envío automatizado de correos, autenticación segura y gestión de contraseñas. Colaboré en el Frontend con React, HTML, CSS y JavaScript en un equipo multidisciplinario.",
+      "tags": [".NET (C#)", "SQL Server", "REST API", "React", "JavaScript", "Auth Segura"]
+    },
+    {
+      "id": "your-first-job",
+      "title": "yourFirstJob - App Multiplataforma",
+      "client": "Proyecto Académico",
+      "period": "Enero 2024 - Abril 2024",
+      "type": "Aplicación Móvil Multiplataforma",
+      "summary": "Aplicación móvil para conectar estudiantes con su primera oportunidad laboral.",
+      "description": "Desarrollé una aplicación de búsqueda de empleo para estudiantes universitarios utilizando .NET MAUI. Diseñé interfaces y flujos de usabilidad. Desarrollé una API en C# para la lógica del sistema, modelé la base de datos relacional en Microsoft SQL Server y desplegué tanto la API como la base de datos en Microsoft Azure.",
+      "tags": [".NET MAUI", "C# API", "SQL Server", "Microsoft Azure", "Mobile"]
+    }
+  ]
+}
