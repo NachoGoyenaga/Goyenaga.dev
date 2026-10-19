@@ -36,13 +36,18 @@ i18n
     },
     fallbackLng: 'es',
     defaultNS: 'common',
-    ns: ['common', 'home', 'projects', 'resume', 'contact'], // <-- Registrar todos los namespaces
+    ns: ['common', 'home', 'projects', 'resume', 'contact'],
     interpolation: {
       escapeValue: false
     },
+    // CLAVE: Evita que react-i18next suspenda el renderizado inicial
+    react: {
+      useSuspense: false
+    },
     detection: {
       order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
+      caches: ['localStorage'],
+      checkWhitelist: true
     }
   });
 
