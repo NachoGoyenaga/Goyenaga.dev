@@ -1,14 +1,15 @@
-import { lazy, Suspense } from 'react';
+import { Suspense, lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 
-// Carga bajo demanda (Lazy loading)
-const Home = lazy(() => import('./pages/Home'));
+// 1. Prueba importando Home directo:
+import Home from './pages/Home';
+
+// El resto sí déjalo con lazy
 const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Contact = lazy(() => import('./pages/Contact'));
 
-// Placeholder invisible para evitar pantallas blancas mientras cambia de ruta
 function RouteLoader() {
   return <div className="min-h-screen bg-[#050806]" />;
 }
@@ -17,14 +18,9 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        <Route
-          index
-          element={
-            <Suspense fallback={<RouteLoader />}>
-              <Home />
-            </Suspense>
-          }
-        />
+        {/* Render directo de Home */}
+        <Route index element={<Home />} />
+        
         <Route
           path="proyectos"
           element={
