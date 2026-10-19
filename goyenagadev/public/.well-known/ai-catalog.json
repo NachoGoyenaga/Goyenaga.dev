@@ -1,18 +1,20 @@
 {
-  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "specVersion": "1.0",
   "name": "Ignacio Goyenaga Portfolio",
-  "description": "Portfolio de ingeniería de software y soluciones tecnológicas.",
+  "description": "Portafolio de ingeniería de software y soluciones tecnológicas.",
   "url": "https://goyenaga-dev.vercel.app",
-  "resources": [
+  "entries": [
     {
       "name": "llms-txt",
       "type": "text/markdown",
-      "url": "https://goyenaga-dev.vercel.app/llms.txt"
+      "url": "https://goyenaga-dev.vercel.app/llms.txt",
+      "description": "Información del portafolio estructurada para modelos de lenguaje."
     },
     {
       "name": "sitemap",
       "type": "application/xml",
-      "url": "https://goyenaga-dev.vercel.app/sitemap.xml"
+      "url": "https://goyenaga-dev.vercel.app/sitemap.xml",
+      "description": "Mapa de rutas y páginas del sitio."
     }
   ]
 }
