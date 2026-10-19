@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html lang="es" class="scroll-smooth">
+<html lang="es" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goyenaga.dev // Computer Science Engineer</title>
+    <meta name="description" content="Portfolio de ingeniería de software y soluciones tecnológicas." />
     
-    <title>Ignacio Goyenaga | Full Stack Engineer</title>
-    <meta name="description" content="Portafolio profesional de Ignacio Goyenaga. Ingeniero en Sistemas y Full Stack Engineer especializado en .NET (C#), React, SQL Server y Azure." />
-    <meta name="keywords" content="Ignacio Goyenaga, Full Stack Engineer, .NET, C#, React, NextJS, SQL Server, Azure, Costa Rica" />
-    <meta name="author" content="Ignacio Goyenaga" />
+    <!-- Color de la barra superior en celulares -->
+    <meta name="theme-color" content="#050806" />
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Ignacio Goyenaga | Full Stack Engineer" />
-    <meta property="og:description" content="Ingeniero en Sistemas enfocado en soluciones de software Full Stack (.NET, React, SQL Server, Azure)." />
-    <meta property="og:url" content="https://goyenaga.dev" />
+    <!-- Si usas Google Fonts, solo preconnect y display=swap para que no bloqueen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" 
+      rel="stylesheet" 
+    />
 
-    <!-- Fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Solo el color de fondo para que mientras descarga no se vea blanco -->
+    <style>
+      html, body {
+        background-color: #050806;
+        margin: 0;
+        padding: 0;
+        min-height: 100%;
+      }
+    </style>
   </head>
-  <body class="bg-[#0a0a0a] text-neutral-200 antialiased selection:bg-emerald-500/30 selection:text-emerald-200">
+  <body class="bg-[#050806] text-neutral-200 antialiased selection:bg-emerald-500/30 selection:text-emerald-200">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
