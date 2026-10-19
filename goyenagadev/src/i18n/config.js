@@ -2,11 +2,17 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-// Únicamente los JSON estrictamente necesarios para pintar la pantalla de inicio
 import esCommon from './locales/es/common.json';
 import esHome from './locales/es/home.json';
+import esProjects from './locales/es/projects.json';
+import esResume from './locales/es/resume.json';
+import esContact from './locales/es/contact.json';
+
 import enCommon from './locales/en/common.json';
 import enHome from './locales/en/home.json';
+import enProjects from './locales/en/projects.json';
+import enResume from './locales/en/resume.json';
+import enContact from './locales/en/contact.json';
 
 i18n
   .use(LanguageDetector)
@@ -16,38 +22,33 @@ i18n
       es: {
         common: esCommon,
         home: esHome,
+        projects: esProjects,
+        resume: esResume,
+        contact: esContact,
       },
       en: {
         common: enCommon,
         home: enHome,
+        projects: enProjects,
+        resume: enResume,
+        contact: enContact,
       }
     },
     fallbackLng: 'es',
     defaultNS: 'common',
-    ns: ['common', 'home'],
+    ns: ['common', 'home', 'projects', 'resume', 'contact'],
     interpolation: {
       escapeValue: false
     },
+    // CLAVE: Evita que react-i18next suspenda el renderizado inicial
     react: {
-      useSuspense: false // Cero bloqueo de renderizado
+      useSuspense: false
     },
     detection: {
       order: ['localStorage', 'navigator'],
-      caches: ['localStorage']
+      caches: ['localStorage'],
+      checkWhitelist: true
     }
   });
-
-// Función auxiliar para que las páginas secundarias agreguen sus traducciones solo cuando se visitan
-export const loadNamespace = async (ns) => {
-  if (i18n.hasResourceBundle('es', ns)) return;
-
-  const [esModule, enModule] = await Promise.all([
-    import(`./locales/es/${ns}.json`),
-    import(`./locales/en/${ns}.json`)
-  ]);
-
-  i18n.addResourceBundle('es', ns, esModule.default || esModule, true, true);
-  i18n.addResourceBundle('en', ns, enModule.default || enModule, true, true);
-};
 
 export default i18n;
