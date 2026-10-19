@@ -42,15 +42,13 @@ export default function Home() {
             <span className="text-xs font-mono text-neutral-500 uppercase tracking-widest block">
               {t('hero.operator_label')}
             </span>
-            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight font-sans">
-              <span>{t('hero.headline_prefix')}</span>{' '}
+            
+            {/* Altura mínima fija calculada para contener el titular completo en 1, 2 o 3 líneas */}
+            <h1 className="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-white leading-tight font-sans min-h-[6.5rem] sm:min-h-[8.5rem] lg:min-h-[9rem] flex flex-wrap items-baseline content-start">
+              <span className="mr-2">{t('hero.headline_prefix')}</span>
               <TerminalTypewriter phrases={typewriterPhrases} />
             </h1>
           </div>
-
-          <p className="text-neutral-300 text-base sm:text-lg leading-relaxed max-w-2xl font-sans font-normal">
-            {t('hero.description')}
-          </p>
 
           {/* Bloque de credenciales */}
           <div className="space-y-2">

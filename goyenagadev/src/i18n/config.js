@@ -40,14 +40,12 @@ i18n
     interpolation: {
       escapeValue: false
     },
-    // CLAVE: Evita que react-i18next suspenda el renderizado inicial
     react: {
       useSuspense: false
     },
     detection: {
       order: ['localStorage', 'navigator'],
-      caches: ['localStorage'],
-      checkWhitelist: true
+      caches: ['localStorage']
     }
   });
 
