@@ -1,0 +1,14 @@
+# Ignacio Goyenaga - Full Stack & Systems Engineer
+
+> Portafolio profesional de Ignacio Goyenaga, Ingeniero en Sistemas Computacionales especializado en desarrollo web moderno, arquitecturas backend y soluciones cloud.
+
+## Secciones del sitio
+- [Inicio](https://goyenaga-dev.vercel.app/): Información general, perfil técnico y propuesta de valor.
+- [Proyectos](https://goyenaga-dev.vercel.app/proyectos): Proyectos destacados de software y desarrollo web.
+- [Currículum](https://goyenaga-dev.vercel.app/curriculum): Experiencia laboral, certificaciones técnicas (Cisco CCNA) y educación.
+- [Contacto](https://goyenaga-dev.vercel.app/contacto): Canales de comunicación y formulario de contacto.
+
+## Tecnologías principales
+- Frontend: React, Vite, Tailwind CSS, TypeScript/JavaScript
+- Backend: .NET, C#, APIs RESTful
+- Bases de Datos y Cloud: SQL Server, Azure
