@@ -3,17 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>goyenaga.dev // Computer Science Engineer</title>
+    <title>Ignacio Goyenaga | Full Stack & Systems Engineer</title>
     <meta name="description" content="Portfolio de ingeniería de software y soluciones tecnológicas." />
     
-    <!-- Evita bordes o saltos de color en celulares -->
     <meta name="theme-color" content="#050806" />
 
-    <!-- Preconexión rápida a los servidores de fuentes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    
-    <!-- CARGA ASÍNCRONA NO BLOQUEANTE: No detiene el renderizado inicial -->
+    <!-- Eliminados los preconnect huérfanos que retrasaban la conexión -->
     <link 
       rel="preload" 
       as="style" 
@@ -25,20 +20,16 @@
       media="print" 
       onload="this.media='all'" 
     />
-    <noscript>
-      <link 
-        rel="stylesheet" 
-        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" 
-      />
-    </noscript>
 
     <style>
       html, body {
         background-color: #050806;
+        color: #e5e5e5;
         margin: 0;
         padding: 0;
         min-height: 100%;
-        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        /* Tipografías del sistema para pintar el texto en el frame 0 sin esperar a Google */
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
       }
     </style>
   </head>

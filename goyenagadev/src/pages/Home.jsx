@@ -3,16 +3,16 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
 
-// UI esencial y liviana
+// UI compartida
 import { CleanBackgroundGrid } from '../components/ui/CleanBackgroundGrid';
 import { TerminalTypewriter } from '../components/ui/TerminalTypewriter';
 import { TerminalStatusBadge } from '../components/ui/TerminalStatusBadge';
 import { RealProjectCard } from '../components/ui/RealProjectCard';
 
-// Iconos necesarios para el Hero y Proyectos
+// Iconos
 import { ArrowDown, ArrowUpRight, Shield, Award, Mail, Phone, ChevronRight, Cpu } from 'lucide-react';
 
-// Carga diferida de la maqueta interactiva pesada
+// Se carga la maqueta interactiva pesada en segundo plano
 const SolutionInteractiveViewer = lazy(() =>
   import('../components/ui/home/SolutionInteractiveViewer').then(module => ({
     default: module.SolutionInteractiveViewer
@@ -26,13 +26,17 @@ export default function Home() {
   return (
     <>
       <SEO title="Ignacio Goyenaga | Full Stack & Systems Engineer" />
+
+      {/* Cuadrícula técnica de fondo */}
       <CleanBackgroundGrid />
 
-      <div className="space-y-24 sm:space-y-32 relative z-10">
+      <div className="space-y-28 sm:space-y-36 relative z-10">
         
-        {/* ACTO 1: HERO (Pinta en el milisegundo 0 sin retrasos escalonados) */}
-        <section className="pt-4 sm:pt-12 max-w-4xl space-y-6">
-          <TerminalStatusBadge />
+        {/* ACTO 1: HERO (Pinta directo, sin delays artificiales de opacidad) */}
+        <section className="pt-6 sm:pt-16 max-w-4xl space-y-7">
+          <div>
+            <TerminalStatusBadge />
+          </div>
 
           <div className="space-y-3">
             <span className="text-xs font-mono text-neutral-500 uppercase tracking-widest block">
@@ -48,9 +52,10 @@ export default function Home() {
             {t('hero.description')}
           </p>
 
-          {/* Credenciales */}
+          {/* Bloque de credenciales */}
           <div className="space-y-2">
             <div className="h-[1px] w-full bg-gradient-to-r from-emerald-500/0 via-emerald-500/40 to-emerald-500/0" />
+
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 py-1 font-mono text-xs">
               <div className="flex items-center gap-2 text-neutral-300">
                 <Shield size={14} className="text-emerald-400 shrink-0" />
@@ -65,6 +70,7 @@ export default function Home() {
                 <span>{t('hero.credentials.stack')}</span>
               </div>
             </div>
+
             <div className="h-[1px] w-full bg-gradient-to-r from-emerald-500/0 via-emerald-500/40 to-emerald-500/0" />
           </div>
 
@@ -85,7 +91,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ACTO 2: SOLUCIONES (Carga de forma asíncrona) */}
+        {/* ACTO 2: SOLUCIONES (Cargado en segundo plano) */}
         <section id="soluciones" className="space-y-6 scroll-mt-24">
           <div className="border-b border-white/[0.08] pb-4 font-mono">
             <span className="text-xs text-emerald-400 uppercase tracking-widest block mb-1">
