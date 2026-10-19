@@ -1,14 +1,139 @@
 {
-  "hero": {
-    "greeting": "Ingeniero en Sistemas & Desarrollador de Software",
-    "headline_1": "Transformo requerimientos en",
-    "headline_gradient": "soluciones digitales completas.",
-    "role": "Desarrollo Full Stack • Arquitectura Backend • Bases de Datos",
-    "description": "Diseño y construyo proyectos de software de principio a fin: desde interfaces web ágiles y modernas, hasta sistemas backend escalables, bases de datos optimizadas y despliegue en la nube. Convierto ideas complejas en productos estables y listos para producción.",
-    "cta_projects": "Ver Soluciones",
-    "cta_resume": "Mi Trayectoria",
-    "badge_status": "Disponible para nuevos proyectos y roles"
+  "badge": {
+    "status": "DISPONIBLE",
+    "target": "Empresas & Proyectos"
   },
-  "featured_title": "Proyectos y Casos Reales",
-  "see_all": "Explorar catálogo completo"
+  "hero": {
+    "operator_label": "IGNACIO GOYENAGA // INGENIERO EN SISTEMAS COMPUTACIONALES",
+    "headline_prefix": "Desarrollo y entrega de",
+    "typewriter_phrases": [
+      "plataformas web dinámicas y aplicaciones móviles.",
+      "APIs RESTful y automatización de procesos.",
+      "arquitecturas en la nube y bases de datos.",
+      "soluciones completas listas para producción."
+    ],
+    "description": "Diseño e implemento soluciones tecnológicas orientadas a resultados: desde aplicaciones web y móviles responsivas, hasta arquitecturas de backend seguras y bases de datos centralizadas para optimizar la operación de su empresa.",
+    "credentials": {
+      "degree": "Ing. Sistemas (U. Latina 2025)",
+      "cert": "Cisco CCNA 2 Certified",
+      "stack": "Full Stack: .NET • SQL • Azure"
+    },
+    "actions": {
+      "explore": "¿Cómo puedo ayudarle?",
+      "cv": "Ver Currículum"
+    }
+  },
+  "solutions_section": {
+    "tag": "// PROPUESTA DE VALOR",
+    "title": "¿Qué tipo de solución necesita?",
+    "subtitle": "Seleccione la opción que mejor describa su requerimiento técnico o de negocio:",
+    "cta_prompt": "// ¿Interesado en implementar esta solución para su negocio?",
+    "cta_button": "Cotizar o consultar esta solución"
+  },
+  "solutions": {
+    "tabs": {
+      "web": {
+        "name": "Web & Móvil",
+        "short": "Web/Móvil",
+        "sub": "Interfaces y Apps"
+      },
+      "backend": {
+        "name": "Lógica & APIs",
+        "short": "APIs/Backend",
+        "sub": "Servicios Backend"
+      },
+      "data": {
+        "name": "Datos & Nube",
+        "short": "SQL/Azure",
+        "sub": "SQL & Azure"
+      }
+    },
+    "web": {
+      "number": "01",
+      "title": "Plataformas Web Dinámicas & Aplicaciones Multiplataforma",
+      "headline": "Desarrollo Frontend & Soluciones Móviles",
+      "description": "Construcción de aplicaciones web y móviles a la medida, combinando interfaces reactivas, estructuradas y adaptables con arquitecturas modernas de alto rendimiento.",
+      "benefits": [
+        "Desarrollo de proyectos a la medida bajo buenas prácticas de diseño y usabilidad",
+        "Optimización técnica de estructura y rendimiento para motores de búsqueda (SEO)",
+        "Construcción de paneles de control y dashboards para visualización de métricas de negocio",
+        "Compatibilidad multiplataforma en dispositivos móviles y de escritorio"
+      ],
+      "techs_label": "TECNOLOGÍAS ASOCIADAS:"
+    },
+    "backend": {
+      "number": "02",
+      "title": "Arquitectura de Backend, APIs RESTful & Microservicios",
+      "headline": "Lógica de Servidor & Procesamiento Seguro",
+      "description": "Implementación de servicios transaccionales y lógica empresarial robusta, garantizando comunicación fluida, autenticación protegida e integración entre sistemas.",
+      "benefits": [
+        "Desarrollo de APIs RESTful escalables con arquitecturas limpias y desacopladas",
+        "Control de acceso seguro mediante autenticación basada en tokens JWT y roles de usuario",
+        "Automatización de flujos de trabajo, tareas programadas y procesamiento asíncrono",
+        "Validación estricta de datos y manejo estructurado de excepciones"
+      ],
+      "techs_label": "TECNOLOGÍAS ASOCIADAS:"
+    },
+    "data": {
+      "number": "03",
+      "title": "Bases de Datos Relacionales & Soluciones en la Nube",
+      "headline": "Gestión de Datos & Despliegue en Azure",
+      "description": "Diseño e implementación de bases de datos centralizadas, optimizadas para el procesamiento confiable de información y alojadas en infraestructura administrada en la nube.",
+      "benefits": [
+        "Modelado relacional y normalización de esquemas para evitar redundancias e inconsistencias",
+        "Automatización y lógica de consultas mediante Procedimientos Almacenados (Stored Procedures)",
+        "Estrategias de respaldo continuo, alta disponibilidad y seguridad en Microsoft Azure",
+        "Procesos estructurados de migración y depuración de datos desde hojas de cálculo dispersas"
+      ],
+      "techs_label": "TECNOLOGÍAS ASOCIADAS:"
+    },
+    "mockups": {
+      "web_tab": "Vista Web",
+      "mobile_tab": "Vista Móvil",
+      "live_telemetry": "LIVE TELEMETRY",
+      "web_panel_title": "PANEL EMPRESARIAL",
+      "active_sessions": "Sesiones Activas",
+      "clients_unit": "clientes",
+      "http_performance": "Rendimiento HTTP",
+      "global_response": "Tiempo de Respuesta Global",
+      "avg": "Promedio",
+      "optimized_prod": "Optimizado para Producción",
+      "mobile_panel_title": "PANEL MÓVIL",
+      "mobile_sessions": "Sesiones Móviles",
+      "active_clients": "clientes activos",
+      "app_performance": "Rendimiento App:",
+      "compatibility_label": "Compatibilidad:",
+      "sync_cloud": "Sincronización Cloud",
+      "sync_realtime": "En tiempo real",
+      "latency": "Latencia",
+      "footer_responsive": "Diseño 100% Responsivo",
+      "footer_arch": "Multi-Device Architecture",
+      "backend_title": "MICROSERVICIOS & PROCESOS CONCURRENTES",
+      "backend_live": "LIVE",
+      "thread_label": "Hilos: Concurrente",
+      "clean_arch": "Clean Architecture",
+      "secure_microservices": "Microservicios Seguros",
+      "cloud_title": "INFRAESTRUCTURA DE DATOS",
+      "indexed_records": "Registros Indexados:",
+      "rows_unit": "filas",
+      "stored_procs": "Procedimientos Almacenados:",
+      "compiled": "Compilados",
+      "transactional_integrity": "Integridad Transaccional:",
+      "backups": "Respaldos y Recuperación:",
+      "azure_high_availability": "Alta Disponibilidad"
+    }
+  },
+  "projects_section": {
+    "tag": "// EXPERIENCIA DEMOSTRADA",
+    "title": "Casos Reales en Producción",
+    "view_all": "Ver todos los proyectos",
+    "problem_label": "El Problema Inicial",
+    "solution_label": "La Solución Entregada"
+  },
+  "contact_section": {
+    "tag": "// INICIAR CONVERSACIÓN",
+    "title": "¿Hablamos sobre su vacante o proyecto?",
+    "description": "Disponible para contratación a tiempo completo como Ingeniero de Software Full Stack o para construir una solución personalizada para su negocio.",
+    "action_button": "Coordinar una Reunión"
+  }
 }

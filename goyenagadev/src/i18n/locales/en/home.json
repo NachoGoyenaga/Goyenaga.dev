@@ -1,14 +1,139 @@
 {
-  "hero": {
-    "greeting": "Systems Engineer & Software Developer",
-    "headline_1": "Transforming ideas into",
-    "headline_gradient": "complete digital solutions.",
-    "role": "Full Stack Delivery • Backend Architecture • Database Engineering",
-    "description": "I engineer software solutions from start to finish: from modern, responsive web experiences to scalable backend APIs, optimized databases, and cloud deployments. Turning business requirements into production-ready software.",
-    "cta_projects": "View Solutions",
-    "cta_resume": "View Career",
-    "badge_status": "Available for new projects & full-time roles"
+  "badge": {
+    "status": "AVAILABLE",
+    "target": "Companies & Projects"
   },
-  "featured_title": "Featured Real-World Projects",
-  "see_all": "View all projects"
+  "hero": {
+    "operator_label": "IGNACIO GOYENAGA // COMPUTER SCINECE ENGINEER",
+    "headline_prefix": "Engineering and delivery of",
+        "typewriter_phrases": [
+      "dynamic web platforms and mobile applications.",
+      "RESTful APIs and business process automation.",
+      "cloud architectures and relational databases.",
+      "end-to-end production-ready solutions."
+    ],
+    "description": "I design and deliver result-oriented technological solutions: from responsive web and mobile applications, to secure backend architectures and centralized databases to streamline your business operations.",
+    "credentials": {
+      "degree": "B.S. Systems Eng. (U. Latina 2025)",
+      "cert": "Cisco CCNA 2 Certified",
+      "stack": "Full Stack: .NET • SQL • Azure"
+    },
+    "actions": {
+      "explore": "How can I help you?",
+      "cv": "View Resume"
+    }
+  },
+  "solutions_section": {
+    "tag": "// VALUE PROPOSITION",
+    "title": "What type of solution do you need?",
+    "subtitle": "Select the option that best matches your technical or business requirement:",
+    "cta_prompt": "// Interested in implementing this solution for your business?",
+    "cta_button": "Request a quote for this solution"
+  },
+  "solutions": {
+    "tabs": {
+      "web": {
+        "name": "Web & Mobile",
+        "short": "Web/Mobile",
+        "sub": "Interfaces & Apps"
+      },
+      "backend": {
+        "name": "Logic & APIs",
+        "short": "APIs/Backend",
+        "sub": "Backend Services"
+      },
+      "data": {
+        "name": "Data & Cloud",
+        "short": "SQL/Azure",
+        "sub": "SQL & Azure"
+      }
+    },
+    "web": {
+      "number": "01",
+      "title": "Dynamic Web Platforms & Cross-Platform Applications",
+      "headline": "Frontend Development & Mobile Solutions",
+      "description": "Building tailor-made web and mobile applications that combine responsive, modular interfaces with modern, high-performance architectural standards.",
+      "benefits": [
+        "Custom application development adhering to solid UI/UX best practices",
+        "Technical structural and performance optimization for search engines (SEO)",
+        "Interactive analytics dashboards and metric visualization tools for business tracking",
+        "Cross-platform responsiveness across mobile, tablet, and desktop viewports"
+      ],
+      "techs_label": "ASSOCIATED TECHNOLOGIES:"
+    },
+    "backend": {
+      "number": "02",
+      "title": "Backend Architecture, RESTful APIs & Microservices",
+      "headline": "Server-Side Logic & Secure Processing",
+      "description": "Implementing robust transactional services and business logic to ensure seamless communication, protected authentication, and smooth integrations.",
+      "benefits": [
+        "Scalable RESTful API development backed by decoupled, Clean Architecture patterns",
+        "Secure access control leveraging JWT token-based authentication and role authorization",
+        "Automated workflow queues, cron jobs, and asynchronous background tasks",
+        "Strict request validation and comprehensive exception-handling pipelines"
+      ],
+      "techs_label": "ASSOCIATED TECHNOLOGIES:"
+    },
+    "data": {
+      "number": "03",
+      "title": "Relational Databases & Cloud Infrastructure",
+      "headline": "Data Engineering & Azure Deployment",
+      "description": "Designing and deploying centralized relational databases engineered for consistency, high concurrency, and managed cloud infrastructure.",
+      "benefits": [
+        "Relational schema modeling and normalization to eliminate duplicates and inconsistencies",
+        "Business query automation and compiled logic through Stored Procedures",
+        "Automated backup strategies, disaster recovery, and high availability in Microsoft Azure",
+        "Structured data cleansing and ETL migration pipelines from fragmented spreadsheets"
+      ],
+      "techs_label": "ASSOCIATED TECHNOLOGIES:"
+    },
+    "mockups": {
+      "web_tab": "Web View",
+      "mobile_tab": "Mobile View",
+      "live_telemetry": "LIVE TELEMETRY",
+      "web_panel_title": "BUSINESS PORTAL",
+      "active_sessions": "Active Sessions",
+      "clients_unit": "clients",
+      "http_performance": "HTTP Throughput",
+      "global_response": "Global Response Time",
+      "avg": "Average",
+      "optimized_prod": "Production Optimized",
+      "mobile_panel_title": "MOBILE PANEL",
+      "mobile_sessions": "Mobile Sessions",
+      "active_clients": "active clients",
+      "app_performance": "App Throughput:",
+      "compatibility_label": "Platforms:",
+      "sync_cloud": "Cloud Sync",
+      "sync_realtime": "Real-time",
+      "latency": "Latency",
+      "footer_responsive": "100% Responsive Design",
+      "footer_arch": "Multi-Device Architecture",
+      "backend_title": "MICROSERVICES & CONCURRENT WORKERS",
+      "backend_live": "LIVE",
+      "thread_label": "Threads: Concurrent",
+      "clean_arch": "Clean Architecture",
+      "secure_microservices": "Secure Microservices",
+      "cloud_title": "DATA INFRASTRUCTURE",
+      "indexed_records": "Indexed Records:",
+      "rows_unit": "rows",
+      "stored_procs": "Stored Procedures:",
+      "compiled": "Compiled",
+      "transactional_integrity": "Transactional Integrity:",
+      "backups": "Backups & Recovery:",
+      "azure_high_availability": "High Availability"
+    }
+  },
+  "projects_section": {
+    "tag": "// PROVEN EXPERIENCE",
+    "title": "Production Case Studies",
+    "view_all": "View all projects",
+    "problem_label": "The Initial Challenge",
+    "solution_label": "The Delivered Solution"
+  },
+  "contact_section": {
+    "tag": "// START A CONVERSATION",
+    "title": "Shall we discuss your role or project?",
+    "description": "Available for full-time software engineering roles or building custom full-cycle solutions for your business.",
+    "action_button": "Schedule a Meeting"
+  }
 }
