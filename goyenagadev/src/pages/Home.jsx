@@ -1,18 +1,23 @@
+import { lazy, Suspense } from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import SEO from '../components/SEO';
 
-// UI compartida
+// UI esencial y liviana
 import { CleanBackgroundGrid } from '../components/ui/CleanBackgroundGrid';
 import { TerminalTypewriter } from '../components/ui/TerminalTypewriter';
 import { TerminalStatusBadge } from '../components/ui/TerminalStatusBadge';
 import { RealProjectCard } from '../components/ui/RealProjectCard';
 
-// Componente interactivo de soluciones (ubicado en ui/home)
-import { SolutionInteractiveViewer } from '../components/ui/home/SolutionInteractiveViewer';
-
+// Iconos necesarios para el Hero y Proyectos
 import { ArrowDown, ArrowUpRight, Shield, Award, Mail, Phone, ChevronRight, Cpu } from 'lucide-react';
+
+// Carga diferida de la maqueta interactiva pesada
+const SolutionInteractiveViewer = lazy(() =>
+  import('../components/ui/home/SolutionInteractiveViewer').then(module => ({
+    default: module.SolutionInteractiveViewer
+  }))
+);
 
 export default function Home() {
   const { t } = useTranslation('home');
@@ -21,28 +26,15 @@ export default function Home() {
   return (
     <>
       <SEO title="Ignacio Goyenaga | Full Stack & Systems Engineer" />
-
-      {/* Cuadrícula técnica de fondo */}
       <CleanBackgroundGrid />
 
-      <div className="space-y-28 sm:space-y-36 relative z-10">
+      <div className="space-y-24 sm:space-y-32 relative z-10">
         
-        {/* ACTO 1: HERO */}
-        <section className="pt-6 sm:pt-16 max-w-4xl space-y-7">
-          <motion.div
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4 }}
-          >
-            <TerminalStatusBadge />
-          </motion.div>
+        {/* ACTO 1: HERO (Pinta en el milisegundo 0 sin retrasos escalonados) */}
+        <section className="pt-4 sm:pt-12 max-w-4xl space-y-6">
+          <TerminalStatusBadge />
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.15 }}
-            className="space-y-3"
-          >
+          <div className="space-y-3">
             <span className="text-xs font-mono text-neutral-500 uppercase tracking-widest block">
               {t('hero.operator_label')}
             </span>
@@ -50,27 +42,16 @@ export default function Home() {
               <span>{t('hero.headline_prefix')}</span>{' '}
               <TerminalTypewriter phrases={typewriterPhrases} />
             </h1>
-          </motion.div>
+          </div>
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.3 }}
-            className="text-neutral-300 text-base sm:text-lg leading-relaxed max-w-2xl font-sans font-normal"
-          >
+          <p className="text-neutral-300 text-base sm:text-lg leading-relaxed max-w-2xl font-sans font-normal">
             {t('hero.description')}
-          </motion.p>
+          </p>
 
-          {/* Bloque de credenciales con líneas degradadas Matrix nítidas */}
+          {/* Credenciales */}
           <div className="space-y-2">
             <div className="h-[1px] w-full bg-gradient-to-r from-emerald-500/0 via-emerald-500/40 to-emerald-500/0" />
-
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.45 }}
-              className="grid grid-cols-1 sm:grid-cols-3 gap-3 py-1 font-mono text-xs"
-            >
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 py-1 font-mono text-xs">
               <div className="flex items-center gap-2 text-neutral-300">
                 <Shield size={14} className="text-emerald-400 shrink-0" />
                 <span>{t('hero.credentials.degree')}</span>
@@ -83,17 +64,11 @@ export default function Home() {
                 <Cpu size={14} className="text-emerald-400 shrink-0" />
                 <span>{t('hero.credentials.stack')}</span>
               </div>
-            </motion.div>
-
+            </div>
             <div className="h-[1px] w-full bg-gradient-to-r from-emerald-500/0 via-emerald-500/40 to-emerald-500/0" />
           </div>
 
-          <motion.div
-            initial={{ opacity: 0, y: 15 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: 0.6 }}
-            className="flex flex-wrap items-center gap-4 pt-2 font-mono text-xs"
-          >
+          <div className="flex flex-wrap items-center gap-4 pt-2 font-mono text-xs">
             <a
               href="#soluciones"
               className="px-6 py-3.5 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-black font-bold transition-all shadow-[0_0_20px_rgba(16,185,129,0.3)] flex items-center gap-2 cursor-pointer"
@@ -107,10 +82,10 @@ export default function Home() {
             >
               {t('hero.actions.cv')}
             </Link>
-          </motion.div>
+          </div>
         </section>
 
-        {/* ACTO 2: SOLUCIONES */}
+        {/* ACTO 2: SOLUCIONES (Carga de forma asíncrona) */}
         <section id="soluciones" className="space-y-6 scroll-mt-24">
           <div className="border-b border-white/[0.08] pb-4 font-mono">
             <span className="text-xs text-emerald-400 uppercase tracking-widest block mb-1">
@@ -124,7 +99,13 @@ export default function Home() {
             </p>
           </div>
 
-          <SolutionInteractiveViewer />
+          <Suspense fallback={
+            <div className="w-full h-72 rounded-xl border border-white/[0.08] bg-white/[0.01] flex items-center justify-center font-mono text-xs text-neutral-500">
+              <span className="animate-pulse">Cargando entorno interactivo...</span>
+            </div>
+          }>
+            <SolutionInteractiveViewer />
+          </Suspense>
         </section>
 
         {/* ACTO 3: PROYECTOS */}
@@ -179,7 +160,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* ACTO 4: CONTACTO (ID #contacto para el enlace directo) */}
+        {/* ACTO 4: CONTACTO */}
         <section 
           id="contacto" 
           className="scroll-mt-24 p-7 sm:p-11 rounded-xl bg-[#090909] border border-white/[0.09] font-mono flex flex-col md:flex-row md:items-center justify-between gap-8 shadow-2xl"

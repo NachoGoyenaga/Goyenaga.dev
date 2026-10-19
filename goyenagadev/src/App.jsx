@@ -1,11 +1,11 @@
-import { Suspense, lazy } from 'react';
+import { lazy, Suspense } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 
-// 1. Prueba importando Home directo:
+// Home DEBE ser síncrono para que viaje en el bundle inicial
 import Home from './pages/Home';
 
-// El resto sí déjalo con lazy
+// Solo las rutas secundarias usan lazy
 const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Contact = lazy(() => import('./pages/Contact'));
@@ -18,7 +18,6 @@ export default function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
-        {/* Render directo de Home */}
         <Route index element={<Home />} />
         
         <Route
