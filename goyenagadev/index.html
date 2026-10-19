@@ -6,24 +6,39 @@
     <title>goyenaga.dev // Computer Science Engineer</title>
     <meta name="description" content="Portfolio de ingeniería de software y soluciones tecnológicas." />
     
-    <!-- Color de la barra superior en celulares -->
+    <!-- Evita bordes o saltos de color en celulares -->
     <meta name="theme-color" content="#050806" />
 
-    <!-- Si usas Google Fonts, solo preconnect y display=swap para que no bloqueen -->
+    <!-- Preconexión rápida a los servidores de fuentes -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- CARGA ASÍNCRONA NO BLOQUEANTE: No detiene el renderizado inicial -->
     <link 
+      rel="preload" 
+      as="style" 
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" 
-      rel="stylesheet" 
     />
+    <link 
+      rel="stylesheet" 
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" 
+      media="print" 
+      onload="this.media='all'" 
+    />
+    <noscript>
+      <link 
+        rel="stylesheet" 
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;600;700&display=swap" 
+      />
+    </noscript>
 
-    <!-- Solo el color de fondo para que mientras descarga no se vea blanco -->
     <style>
       html, body {
         background-color: #050806;
         margin: 0;
         padding: 0;
         min-height: 100%;
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
       }
     </style>
   </head>
