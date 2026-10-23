@@ -182,3 +182,31 @@
     border-right-color: var(--border);
   }
 }
+
+@keyframes catBreathe {
+  0%, 100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.035) translateY(-1px);
+  }
+}
+
+@keyframes tailWag {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-6deg);
+  }
+}
+
+.animate-cat-breathe {
+  animation: catBreathe 3.5s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.animate-tail-wag {
+  animation: tailWag 4s ease-in-out infinite;
+  transform-origin: 215px 138px;
+}

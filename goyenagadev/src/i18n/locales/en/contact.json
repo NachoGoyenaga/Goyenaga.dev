@@ -1,15 +1,23 @@
 {
-  "title": "Contact",
-  "subtitle": "Have a project, job opening, or technical inquiry? Feel free to reach out directly.",
-  "email_label": "Email",
-  "phone_label": "Phone",
-  "location_label": "Location",
-  "form": {
-    "name": "Full name",
-    "email": "Email address",
-    "message": "Message or proposal",
-    "submit": "Send Message",
-    "success_title": "Message Sent!",
-    "success_desc": "Thank you for reaching out. I will get back to you shortly."
+  "badge": "COMMUNICATION CHANNELS",
+  "title": "Let's discuss software engineering & projects.",
+  "subtitle": "Looking for a backend engineer, scalable database solutions, or have an open position? Reach out directly through any of these channels.",
+  "email_label": "Primary Email",
+  "copy_email": "Copy email",
+  "copied": "Copied!",
+  "phone_label": "Phone & WhatsApp",
+  "location_label": "Location & Availability",
+  "location_value": "Heredia, Costa Rica • Remote / Hybrid",
+  "github_label": "GitHub Profile",
+  "linkedin_label": "LinkedIn Profile",
+  "cat": {
+    "dialog_default": "Hi there! Click me to say hello 🐾",
+    "dialogs": [
+      "Meow! Ignacio writes bug-free code ✨",
+      "Purr! 100% ready for new challenges 💻",
+      "Neko power! Databases fully optimized 🚀",
+      "How about a coffee and clean code? ☕"
+    ],
+    "hint": "Click the kawaii dev kitty"
   }
 }
