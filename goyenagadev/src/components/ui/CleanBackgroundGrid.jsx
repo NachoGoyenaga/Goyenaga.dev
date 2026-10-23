@@ -4,7 +4,7 @@ export function CleanBackgroundGrid() {
       className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-[#060807]"
       style={{ transform: 'translateZ(0)' }}
     >
-      {/* Halo verde ultra tenue, sutil y difuminado */}
+      {/* Halo verde */}
       <div 
         className="absolute inset-0 pointer-events-none" 
         style={{
@@ -12,7 +12,7 @@ export function CleanBackgroundGrid() {
         }}
       />
 
-      {/* Cuadrícula técnica visible y calibrada */}
+      {/* Cuadrícula */}
       <svg 
         className="absolute inset-0 w-full h-full opacity-[0.06]" 
         xmlns="http://www.w3.org/2000/svg" 

@@ -181,7 +181,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-5 pt-2 text-xs text-neutral-300">
               <span className="flex items-center gap-2">
-                <Mail size={13} className="text-emerald-400" /> nacho.goyenaga@gmail.com
+                <Mail size={13} className="text-emerald-400" /> contacto@goyenaga.dev
               </span>
               <span className="flex items-center gap-2">
                 <Phone size={13} className="text-emerald-400" /> +506 8433-0637

@@ -1,36 +1,60 @@
 {
-  "title": "Projects & Experience",
-  "subtitle": "Real-world engineering cases across software development, backend architectures, relational data modeling, and cloud deployments.",
-  "items": [
-    {
-      "id": "bd-cantonal",
-      "title": "Cantonal Statistical Database of Costa Rica",
-      "client": "Council for the Promotion of Competitiveness of Costa Rica",
-      "period": "September 2025 - December 2025",
-      "type": "Supervised Professional Internship",
-      "summary": "Design, structuring, and migration of a relational database to process and maintain statistical data for Costa Rican cantons.",
-      "description": "Developed a relational database in Microsoft SQL Server to store and process statistical indicators across cantons in Costa Rica. Analyzed functional requirements through stakeholder meetings to define system needs. Modeled architecture using diagrams and use cases. Migrated legacy data ensuring consistency and relational integrity. Implemented Stored Procedures and functions to automate calculations previously done manually in Excel, deploying the entire solution to Microsoft Azure.",
-      "tags": ["SQL Server", "Microsoft Azure", "Stored Procedures", "ETL", "Relational Modeling"]
+  "header": {
+    "badge": "PORTFOLIO & DELIVERABLES",
+    "title": "Implemented solutions and production systems.",
+    "subtitle": "Select any project to explore the underlying software architecture, engineering details, and platform snapshots."
+  },
+  "filters": {
+    "all": "All",
+    "clients": "Clients",
+    "development": "Development",
+    "institutional": "Institutional"
+  },
+  "items": {
+    "goyenaga": {
+      "category": "Clients",
+      "client": "goyenaga.com",
+      "title": "Architectural Portfolio & Headless CMS",
+      "summary": "High-performance visual portfolio featuring an intuitive management dashboard for publishing architectural works.",
+      "description": "Commercial web platform and portfolio designed for showcasing architectural projects. Integrated with a private, user-friendly admin dashboard that allows the client to independently publish new works, upload blueprints, and organize high-resolution cloud galleries in real time without writing any code.",
+      "role": "Web Architecture & Frontend",
+      "year": "2026"
     },
-    {
-      "id": "academa",
-      "title": "Management Web System & REST API",
-      "client": "ACADEMA",
-      "period": "September 2024 - April 2025",
-      "type": "Developer | University Community Work",
-      "summary": "Comprehensive web management platform for student enrollment, faculty, courses, and musical instrument inventory.",
-      "description": "Participated in the development of an end-to-end web system. Built the backend and REST API in .NET (C#) to integrate the web client with SQL Server. Designed and implemented the relational schema in Microsoft SQL Server. Implemented automated email notifications, secure password handling, and data processing pipelines. Collaborated on the frontend using React, HTML, CSS, and JavaScript in a cross-functional team.",
-      "tags": [".NET (C#)", "SQL Server", "REST API", "React", "JavaScript", "Secure Auth"]
+    "santodex": {
+      "category": "Development",
+      "client": "Santodex",
+      "title": "Mobile Web Collectible Card Platform (PWA)",
+      "summary": "Collectible card trading web app featuring virtual pack opening, collection tracking, and multi-provider secure login.",
+      "description": "Mobile-first Progressive Web App built around collectible cards, digital booster pack opening, and user album management. Implements secure access using Google Sign-In and email verification code authentication. Data persistence and collection state synchronization were engineered using Supabase and PostgreSQL.",
+      "role": "Full Stack Engineer",
+      "year": "2026"
     },
-    {
-      "id": "your-first-job",
-      "title": "yourFirstJob - Cross-Platform App",
+    "airerys": {
+      "category": "Clients",
+      "client": "Aire Acondicionado R&S",
+      "title": "Commercial Portal & Automated Content Workflows",
+      "summary": "Commercial website seamlessly synchronized with social media through webhooks and keyword triggers.",
+      "description": "Commercial web portal developed for an HVAC contractor with a zero-friction publishing pipeline tailored for the client: the business owner simply publishes a post on Facebook containing a designated keyword, and the system (via Make.com and webhooks) automatically intercepts the content, formats it, and updates the website portfolio without requiring manual dashboard access.",
+      "role": "Web Engineer & Automations",
+      "year": "2026"
+    },
+    "cpc": {
+      "category": "Institutional",
+      "client": "Council for the Promotion of Competitiveness (CPC)",
+      "title": "Cantonal Statistical Database & Process Automation in Azure",
+      "summary": "End-to-end database schema design, legacy migration, and statistical calculation automation via Stored Procedures on SQL Server and Azure.",
+      "description": "Engineered during the Supervised Professional Internship at an institution dedicated to national statistical and economic competitiveness analysis. Led the complete design and relational modeling of a Microsoft SQL Server database, migrated and validated existing datasets, and implemented complex Stored Procedures to automate statistical calculations previously done by hand in spreadsheets. The entire database architecture was deployed to Microsoft Azure.",
+      "role": "Supervised Professional Internship",
+      "year": "2025"
+    },
+    "yourfirstjob": {
+      "category": "Development",
       "client": "Academic Project",
-      "period": "January 2024 - April 2024",
-      "type": "Cross-Platform Mobile Application",
-      "summary": "Mobile job search application built for university students seeking their first career opportunities.",
-      "description": "Developed a job search application for students using .NET MAUI. Designed user interfaces and usability workflows. Built a backend API in C#, structured the database using Microsoft SQL Server, and deployed both components to Microsoft Azure.",
-      "tags": [".NET MAUI", "C# API", "SQL Server", "Microsoft Azure", "Mobile"]
+      "title": "yourFirstJob - Cross-Platform Mobile App & API",
+      "summary": "Cross-platform mobile application (.NET MAUI) backed by a dedicated C# REST API and a relational database on Microsoft Azure.",
+      "description": "Cross-platform mobile application developed with .NET MAUI to connect college students with early job opportunities. The project covered the full software lifecycle: schema design and implementation of a relational database in Microsoft SQL Server, and the development of a RESTful API in C# (.NET) to manage business workflows and job applications. Both the database and backend services were deployed to Microsoft Azure cloud infrastructure.",
+      "role": "Mobile & Backend Developer",
+      "year": "2024"
     }
-  ]
+  }
 }

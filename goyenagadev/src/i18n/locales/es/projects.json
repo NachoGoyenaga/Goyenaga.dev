@@ -1,36 +1,60 @@
 {
-  "title": "Proyectos y Experiencia",
-  "subtitle": "Casos reales de desarrollo de software, arquitectura backend, modelado de datos e interfaces frontend.",
-  "items": [
-    {
-      "id": "bd-cantonal",
-      "title": "Base de Datos Estadística Cantonal de Costa Rica",
-      "client": "Consejo de Promoción de la Competitividad de Costa Rica",
-      "period": "Septiembre 2025 - Diciembre 2025",
-      "type": "Práctica Profesional Supervisada",
-      "summary": "Diseño, estructuración y migración de base de datos relacional para procesar información estadística de los cantones de Costa Rica.",
-      "description": "Desarrollé una base de datos relacional en Microsoft SQL Server para el almacenamiento y procesamiento de datos estadísticos de los cantones de Costa Rica. Analicé los requerimientos funcionales mediante reuniones con directores para definir las necesidades del sistema. Diseñé la solución mediante diagramas y casos de uso. Ejecuté la migración asegurando la consistencia e integridad de los datos. Implementé Stored Procedures y funciones para automatizar cálculos antes hechos manualmente en Excel, y desplegué la solución en Microsoft Azure.",
-      "tags": ["SQL Server", "Microsoft Azure", "Stored Procedures", "ETL", "Modelado Relacional"]
+  "header": {
+    "badge": "PORTAFOLIO & ENTREGABLES",
+    "title": "Soluciones implementadas y proyectos reales.",
+    "subtitle": "Selecciona cualquier proyecto para ver la arquitectura técnica, detalles del desarrollo y galería de capturas."
+  },
+  "filters": {
+    "all": "Todos",
+    "clients": "Clientes",
+    "development": "Desarrollo",
+    "institutional": "Institucional"
+  },
+  "items": {
+    "goyenaga": {
+      "category": "Clientes",
+      "client": "goyenaga.com",
+      "title": "Portafolio Arquitectónico & CMS Headless",
+      "summary": "Plataforma web de alto rendimiento visual con panel de administración para gestión y publicación ágil de obras.",
+      "description": "Sitio web comercial y portafolio interactivo desarrollado para la exhibición de proyectos arquitectónicos. Cuenta con un panel de control autogestionable y privado que permite al cliente publicar nuevas obras, subir planos y actualizar galerías fotográficas en la nube de forma inmediata y sin necesidad de escribir código.",
+      "role": "Arquitectura Web & Frontend",
+      "year": "2026"
     },
-    {
-      "id": "academa",
-      "title": "Sistema Web de Gestión & API REST",
-      "client": "ACADEMA",
-      "period": "Septiembre 2024 - Abril 2025",
-      "type": "Programador | Trabajo Comunal Universitario",
-      "summary": "Sistema web integral para administración de matrículas, estudiantes, profesores, clases e inventario de instrumentos.",
-      "description": "Participé en el desarrollo de un sistema web integral. Desarrollé el Backend y la API REST en .NET (C#) para conectar la interfaz web con SQL Server. Diseñé e implementé la base de datos relacional en Microsoft SQL Server. Implementé funcionalidades para envío automatizado de correos, autenticación segura y gestión de contraseñas. Colaboré en el Frontend con React, HTML, CSS y JavaScript en un equipo multidisciplinario.",
-      "tags": [".NET (C#)", "SQL Server", "REST API", "React", "JavaScript", "Auth Segura"]
+    "santodex": {
+      "category": "Desarrollo",
+      "client": "Santodex",
+      "title": "Plataforma Web Móvil de Cartas Coleccionables (PWA)",
+      "summary": "Aplicación web de cartas coleccionables con apertura de sobres virtuales, gestión de inventario y autenticación segura.",
+      "description": "Aplicación web progresiva móvil basada en un sistema de cartas coleccionables, apertura de sobres virtuales y control de álbumes de usuarios. Cuenta con un sistema de acceso seguro que incluye inicio de sesión mediante Google y verificación por código enviado al correo electrónico. Para la persistencia de datos y la sincronización del estado de la colección, se utilizó Supabase y PostgreSQL.",
+      "role": "Full Stack Engineer",
+      "year": "2026"
     },
-    {
-      "id": "your-first-job",
-      "title": "yourFirstJob - App Multiplataforma",
+    "airerys": {
+      "category": "Clientes",
+      "client": "Aire Acondicionado R&S",
+      "title": "Portal Comercial y Flujos de Publicación Automatizada",
+      "summary": "Portal web comercial sincronizado automáticamente con redes sociales mediante webhooks y palabras clave.",
+      "description": "Plataforma web comercial diseñada para una empresa de climatización con un flujo de publicación automatizado orientado a la facilidad del cliente: el administrador solo realiza una publicación en la página de Facebook incluyendo una palabra clave específica, y el sistema (mediante webhooks y Make.com) captura el contenido, lo procesa y lo publica automáticamente en el portal web sin que el cliente tenga que tocar el panel de la web.",
+      "role": "Web Engineer & Automatizaciones",
+      "year": "2026"
+    },
+    "cpc": {
+      "category": "Institucional",
+      "client": "Consejo de Promoción de la Competitividad (CPC)",
+      "title": "Base de Datos Estadística Cantonal & Automatización en Azure",
+      "summary": "Diseño integral, migración de datos y automatización de procesos estadísticos mediante Stored Procedures en SQL Server y Azure.",
+      "description": "Proyecto desarrollado durante la Práctica Profesional Supervisada en una organización orientada al análisis estadístico y de competitividad. Realicé el diseño y modelado completo de una base de datos relacional en Microsoft SQL Server, ejecuté la migración y depuración de los conjuntos de datos existentes, y programé Procedimientos Almacenados (Stored Procedures) para automatizar los cálculos y métricas estadísticas que antes se operaban manualmente. La solución fue desplegada y alojada en Microsoft Azure.",
+      "role": "Práctica Profesional Supervisada",
+      "year": "2025"
+    },
+    "yourfirstjob": {
+      "category": "Desarrollo",
       "client": "Proyecto Académico",
-      "period": "Enero 2024 - Abril 2024",
-      "type": "Aplicación Móvil Multiplataforma",
-      "summary": "Aplicación móvil para conectar estudiantes con su primera oportunidad laboral.",
-      "description": "Desarrollé una aplicación de búsqueda de empleo para estudiantes universitarios utilizando .NET MAUI. Diseñé interfaces y flujos de usabilidad. Desarrollé una API en C# para la lógica del sistema, modelé la base de datos relacional en Microsoft SQL Server y desplegué tanto la API como la base de datos en Microsoft Azure.",
-      "tags": [".NET MAUI", "C# API", "SQL Server", "Microsoft Azure", "Mobile"]
+      "title": "yourFirstJob - App Móvil Multiplataforma & API",
+      "summary": "Aplicación móvil multiplataforma (.NET MAUI) con API REST en C# y base de datos relacional en Microsoft Azure.",
+      "description": "Aplicación móvil multiplataforma desarrollada en .NET MAUI para conectar estudiantes universitarios con sus primeras oportunidades de empleo. El proyecto abarcó la ingeniería de software completa: diseño e implementación de la base de datos relacional en Microsoft SQL Server y construcción de una API RESTful en C# (.NET) para gestionar la lógica del negocio y las postulaciones. El despliegue de la base de datos y del backend fue realizado en los servicios en la nube de Microsoft Azure.",
+      "role": "Desarrollador Móvil & Backend",
+      "year": "2024"
     }
-  ]
+  }
 }
