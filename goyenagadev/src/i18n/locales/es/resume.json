@@ -1,51 +1,111 @@
 {
-  "title": "Currículum Vitae",
-  "profile_summary": "Ingeniero en Sistemas Computacionales y Full Stack Engineer con experiencia en desarrollo de soluciones de software de extremo a extremo: desde interfaces de usuario con React, Next.js y .NET MAUI hasta APIs RESTful robustas en .NET (C#), modelado relacional en Microsoft SQL Server y despliegues en Azure. Destaco por mi pensamiento analítico, liderazgo técnico, resolución de problemas y adaptabilidad en proyectos multidisciplinarios.",
-  "view_pdf": "Ver PDF",
-  "download_pdf": "Descargar PDF",
+  "header": {
+    "badge": "CURRÍCULUM VITAE",
+    "name": "Ignacio Goyenaga Castro",
+    "headline": "INGENIERO EN SISTEMAS | DESARROLLADOR BACKEND | BASES DE DATOS",
+    "download_btn": "Descargar CV (PDF)",
+    "view_btn": "Ver PDF"
+  },
+  "contact": {
+    "phone": "8433-0637",
+    "email": "ignacio@goyenaga.dev",
+    "location": "Heredia",
+    "license": "Licencia B1",
+    "visa": "U.S Visa"
+  },
   "sections": {
-    "experience": "Experiencia Laboral y Práctica",
-    "skills": "Habilidades Técnicas",
+    "summary": "Perfil",
+    "work_experience": "Experiencia Laboral",
+    "academic_projects": "Proyectos Académicos",
     "education": "Educación",
     "certifications": "Certificaciones",
-    "details": "Detalles Profesionales"
+    "skills": "Habilidades Técnicas",
+    "languages": "Idiomas"
   },
-  "skills_categories": [
+  "summary": "Ingeniero en Sistemas Computacionales con experiencia en desarrollo de soluciones de software, especializado en Backend, .NET (C#), SQL Server, APIs REST y Microsoft Azure. Cuento con experiencia en análisis de requerimientos, diseño y desarrollo de bases de datos, automatización de procesos y desarrollo de aplicaciones web y móviles. Destaco por mi pensamiento analítico, liderazgo, resolución de problemas, adaptabilidad y aprendizaje rápido, aportando soluciones eficientes, proactividad y capacidad de trabajo en equipo para generar valor en cada proyecto.",
+  "work_experience": [
     {
-      "category": "Bases de Datos",
-      "items": ["Microsoft SQL Server (consultas, modelado, stored procedures)", "MySQL", "Migración e Integridad de Datos"]
+      "role": "Práctica Profesional Supervisada",
+      "company": "Consejo de Promoción de la Competitividad de Costa Rica",
+      "period": "Septiembre 2025 - Diciembre 2025",
+      "intro": "Desarrollé una base de datos relacional en Microsoft SQL Server destinada al almacenamiento y procesamiento de información estadística de los cantones de Costa Rica.",
+      "bullets": [
+        "Analicé los requerimientos funcionales del proyecto mediante reuniones con los responsables de la organización para definir las necesidades del sistema.",
+        "Diseñé la estructura de la solución utilizando diagramas y casos de uso para documentar y planificar el desarrollo.",
+        "Ejecuté la migración de la información existente hacia la nueva base de datos, asegurando la organización e integridad de los datos.",
+        "Implementé funciones y procedimientos almacenados (Stored Procedures) para automatizar cálculos estadísticos que anteriormente se realizaban manualmente en Microsoft Excel.",
+        "Implementé la solución en Microsoft Azure para su administración y disponibilidad en la nube."
+      ]
     },
     {
-      "category": "Backend y APIs",
-      "items": ["APIs RESTful en .NET (C#)", "APIs RESTful en Java", "C#", "Java", "Python", "C++"]
-    },
-    {
-      "category": "Frontend y Web",
-      "items": ["React", "Vite", "NextJS", "HTML5", "CSS3", "JavaScript"]
-    },
-    {
-      "category": "Cloud, Móvil & Redes",
-      "items": ["Microsoft Azure", ".NET MAUI (apps multiplataforma)", "Java (apps de escritorio)", "Cisco CCNA 2"]
+      "role": "Programador | Trabajo Comunal Universitario",
+      "company": "ACEDEMA",
+      "period": "Septiembre 2024 - Abril 2025",
+      "intro": "",
+      "bullets": [
+        "Participé en el desarrollo de un sistema web de gestión para la administración de matrículas, estudiantes, profesores, clases e inventario de instrumentos.",
+        "Desarrollé el Backend de la aplicación utilizando .NET (C#).",
+        "Diseñé e implementé la base de datos relacional en Microsoft SQL Server.",
+        "Desarrollé una API REST para integrar la aplicación web con la base de datos.",
+        "Implementé funcionalidades para el envío automatizado de correos electrónicos, gestión segura de contraseñas y procesamiento de información.",
+        "Colaboré con el desarrollo del Frontend utilizando React, HTML, CSS y JavaScript.",
+        "Trabajé en coordinación con un equipo multidisciplinario para cumplir los objetivos establecidos del proyecto."
+      ]
     }
   ],
-  "education_items": [
+  "academic_projects": [
+    {
+      "name": "yourFirstJob",
+      "period": "Enero 2024 - Abril 2024",
+      "bullets": [
+        "Desarrollé una aplicación de búsqueda de empleo dirigida a estudiantes utilizando .NET MAUI.",
+        "Diseñé las interfaces y organicé la usabilidad de la aplicación.",
+        "Desarrollé una API utilizando C#.",
+        "Diseñé y desarrollé la base de datos utilizando Microsoft SQL Server.",
+        "Implementé la API y la base de datos en Microsoft Azure."
+      ]
+    }
+  ],
+  "education": [
     {
       "degree": "Bachillerato en Ingeniería en Sistemas Computacionales",
       "institution": "Universidad Latina de Costa Rica",
       "year": "2025"
     }
   ],
-  "certification_items": [
+  "certifications": [
     {
       "name": "Cisco CCNA 2 - Switching, Routing and Wireless Essentials (CCNAv7)",
-      "issuer": "Cisco Networking Academy",
+      "institution": "Cisco Networking Academy",
       "year": "2023"
     }
   ],
-  "info": {
-    "location": "Heredia, Costa Rica",
-    "phone": "8433-0637",
-    "email": "nacho.goyenaga@gmail.com",
-    "visa": "U.S. Visa & Licencia B1"
-  }
+  "technical_skills": [
+    {
+      "category": "Bases de datos",
+      "items": "SQL Server (consultas, modelado, procedimientos almacenados), MySQL"
+    },
+    {
+      "category": "Backend y APIs",
+      "items": "APIs RESTful en .NET (C#), APIs RESTful en Java"
+    },
+    {
+      "category": "Desarrollo de aplicaciones",
+      "items": ".NET MAUI (apps móviles multiplataforma), Java (apps de escritorio)"
+    },
+    {
+      "category": "Frontend y web",
+      "items": "React, Vite, NextJS, HTML5, CSS3"
+    },
+    {
+      "category": "Lenguajes de programación",
+      "items": "C#, Java, C++, Python, JavaScript"
+    }
+  ],
+  "languages": [
+    {
+      "name": "Inglés",
+      "level": "B2 (Intermedio Alto)"
+    }
+  ]
 }

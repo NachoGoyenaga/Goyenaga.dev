@@ -1,51 +1,115 @@
 {
-  "title": "Curriculum Vitae",
-  "profile_summary": "Computer Systems Engineer and Full Stack Engineer experienced in end-to-end software development: from responsive client interfaces using React, Next.js, and .NET MAUI to high-performance RESTful APIs in .NET (C#), relational database modeling in SQL Server, and cloud deployments on Azure. Known for analytical thinking, problem-solving, and cross-functional team delivery.",
-  "view_pdf": "View PDF",
-  "download_pdf": "Download PDF",
+  "header": {
+    "badge": "RESUME",
+    "name": "Ignacio Goyenaga Castro",
+    "headline": "SYSTEMS ENGINEER | BACKEND DEVELOPER | DATABASES",
+    "download_btn": "Download CV (PDF)",
+    "view_btn": "View PDF"
+  },
+  "contact": {
+    "phone": "+506 8433-0637",
+    "email": "ignacio@goyenaga.dev",
+    "location": "Heredia, Costa Rica",
+    "license": "B1 Driver's License",
+    "visa": "U.S. Visa"
+  },
   "sections": {
-    "experience": "Work Experience & Internships",
-    "skills": "Technical Skills",
+    "summary": "Summary",
+    "work_experience": "Work Experience",
+    "academic_projects": "Academic Projects",
     "education": "Education",
     "certifications": "Certifications",
-    "details": "Professional Details"
+    "skills": "Technical Skills",
+    "languages": "Languages"
   },
-  "skills_categories": [
+  "summary": "Systems Engineer with experience in software solution development, specializing in Backend Development, .NET (C#), SQL Server, REST APIs, and Microsoft Azure. Experienced in requirements analysis, database design and development, process automation, and web and mobile application development. Strong analytical thinking, leadership, problem-solving, adaptability, and fast learning skills, with a proactive approach and the ability to collaborate effectively within teams to deliver efficient solutions and create value across projects.",
+  "work_experience": [
     {
-      "category": "Databases",
-      "items": ["Microsoft SQL Server (queries, modeling, stored procedures)", "MySQL", "Data Migration & Integrity"]
+      "role": "Supervised Professional Internship",
+      "company": "Consejo de Promoción de la Competitividad de Costa Rica",
+      "period": "September 2025 - December 2025",
+      "intro": "Developed a relational database in Microsoft SQL Server for the storage and processing of statistical data on the cities of Costa Rica.",
+      "bullets": [
+        "Analyzed project functional requirements through meetings with organization representatives to define the system's needs.",
+        "Designed the solution structure using diagrams and use cases to document and plan the development process.",
+        "Migrated existing information to the new database, ensuring proper data organization and integrity.",
+        "Implemented functions and Stored Procedures to automate statistical calculations that were previously performed manually in Microsoft Excel.",
+        "Implemented the solution in Microsoft Azure for cloud-based management and availability."
+      ]
     },
     {
-      "category": "Backend & APIs",
-      "items": ["RESTful APIs in .NET (C#)", "RESTful APIs in Java", "C#", "Java", "Python", "C++"]
-    },
-    {
-      "category": "Frontend & Web",
-      "items": ["React", "Vite", "NextJS", "HTML5", "CSS3", "JavaScript"]
-    },
-    {
-      "category": "Cloud, Mobile & Networking",
-      "items": ["Microsoft Azure", ".NET MAUI (cross-platform mobile)", "Java (desktop apps)", "Cisco CCNA 2"]
+      "role": "Community Service Project",
+      "company": "ACEDEMA",
+      "period": "September 2024 - April 2025",
+      "intro": "",
+      "bullets": [
+        "Participated in the development of a web-based management system for managing student enrollment, students, teachers, classes, and instrument inventory.",
+        "Developed the application Backend using .NET (C#).",
+        "Designed and implemented the relational database using Microsoft SQL Server.",
+        "Developed a REST API to integrate the web application with the database.",
+        "Implemented functionality for automated email delivery, secure password management, and information processing.",
+        "Collaborated on Frontend development using React, HTML, CSS, and JavaScript.",
+        "Worked collaboratively within a multidisciplinary team to achieve the project's established objectives."
+      ]
     }
   ],
-  "education_items": [
+  "academic_projects": [
     {
-      "degree": "Bachelor's Degree in Computer Systems Engineering",
+      "name": "yourFirstJob",
+      "period": "January 2024 - April 2024",
+      "bullets": [
+        "Developed a job search application for students using .NET MAUI.",
+        "Designed the application interfaces and organized its usability.",
+        "Developed an API using C#.",
+        "Designed and developed the database using Microsoft SQL Server.",
+        "Implemented the API and database in Microsoft Azure."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Systems Engineering",
       "institution": "Universidad Latina de Costa Rica",
       "year": "2025"
     }
   ],
-  "certification_items": [
+  "certifications": [
     {
       "name": "Cisco CCNA 2 - Switching, Routing and Wireless Essentials (CCNAv7)",
-      "issuer": "Cisco Networking Academy",
+      "institution": "Cisco Networking Academy",
       "year": "2023"
     }
   ],
-  "info": {
-    "location": "Heredia, Costa Rica",
-    "phone": "+506 8433-0637",
-    "email": "nacho.goyenaga@gmail.com",
-    "visa": "U.S. Visa & B1 Driver's License"
-  }
+  "technical_skills": [
+    {
+      "category": "Databases",
+      "items": "SQL Server (queries, database modeling, Stored Procedures), MySQL"
+    },
+    {
+      "category": "Backend & APIs",
+      "items": "RESTful APIs with .NET (C#), RESTful APIs with Java"
+    },
+    {
+      "category": "Application Development",
+      "items": ".NET MAUI (cross-platform mobile applications), Java (desktop applications)"
+    },
+    {
+      "category": "Frontend & Web",
+      "items": "React, Vite, Next.js, HTML5, CSS3"
+    },
+    {
+      "category": "Programming Languages",
+      "items": "C#, Java, C++, Python, JavaScript"
+    }
+  ],
+  "languages": [
+    {
+      "name": "English",
+      "level": "B2"
+    },
+    {
+      "name": "Spanish",
+      "level": "Native"
+    }
+  ]
 }
