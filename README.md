@@ -100,4 +100,4 @@ npm run build
 - **Portafolio:** [goyenaga.dev](https://goyenaga.dev)
 - **LinkedIn:** [linkedin.com/in/ignacio-goyenaga-a9616a22b](https://www.linkedin.com/in/ignacio-goyenaga-a9616a22b)
 - **Ubicación:** Heredia, Costa Rica
-- **Contacto:** [nacho.goyenaga@gmail.com](mailto:Ignacio@goyenaga.dev)
+- **Contacto:** [Ignacio@goyenaga.dev](mailto:Ignacio@goyenaga.dev)
