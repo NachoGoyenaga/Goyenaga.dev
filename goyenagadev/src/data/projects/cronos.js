@@ -4,8 +4,9 @@ export const cronosProject = {
   featured: true,
   link: "cronos.goyenaga.dev",
   github: null,
-  thumbnail: "/projects/cronos/05-proyecto-lista.png",
+  thumbnail: "/projects/cronos/01-web.png",
   gallery: [
+    "/projects/cronos/05-proyecto-lista.png",
     "/projects/cronos/08-cronometro.png",
     "/projects/cronos/10-calendario-proyecto.png",
     "/projects/cronos/06-editar-tarea.png",
