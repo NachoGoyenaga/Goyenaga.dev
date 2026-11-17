@@ -11,12 +11,19 @@
     "institutional": "Institutional"
   },
   "items": {
+    "cronos": {
+      "category": "Development",
+      "client": "Cronos",
+      "title": "Cronos — Task management and time tracking",
+      "summary": "Organize projects and tasks, and track the time spent on each with a built-in timer.",
+      "description": "Cronos brings planning and time tracking together in one workspace. Users can create projects, organize tasks and subtasks, and view their work as a list, board, or calendar. A built-in timer tracks time spent on each task and shows the total time dedicated to each project."
+    },
     "goyenaga": {
       "category": "Clients",
       "client": "goyenaga.com",
       "title": "Architectural Portfolio & Headless CMS",
-      "summary": "High-performance visual portfolio featuring an intuitive management dashboard for publishing architectural works.",
-      "description": "Commercial web platform and portfolio designed for showcasing architectural projects. Integrated with a private, user-friendly admin dashboard that allows the client to independently publish new works, upload blueprints, and organize high-resolution cloud galleries in real time without writing any code.",
+      "summary": "A complete redesign from a WordPress site into an easy-to-navigate, self-managed architectural portfolio.",
+      "description": "A complete transformation from a generic WordPress template into a custom platform that puts the architect's work and experience front and center. A clearer site structure and navigation make it easier to explore projects and contact the studio. A private management dashboard lets the client independently publish projects, upload plans, and update galleries without writing code.",
       "role": "Web Architecture & Frontend",
       "year": "2026"
     },

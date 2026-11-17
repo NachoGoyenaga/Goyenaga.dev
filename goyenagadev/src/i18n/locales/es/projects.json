@@ -11,12 +11,19 @@
     "institutional": "Institucional"
   },
   "items": {
+    "cronos": {
+      "category": "Desarrollo",
+      "client": "Cronos",
+      "title": "Cronos — Gestión de tareas y seguimiento del tiempo",
+      "summary": "Organiza proyectos y tareas, y registra el tiempo dedicado a cada una con un cronómetro integrado.",
+      "description": "Cronos reúne la planificación y el seguimiento del tiempo en un solo espacio. Permite crear proyectos, organizar tareas y subtareas, y consultar el trabajo en vistas de lista, tablón y calendario. Un cronómetro integrado registra el tiempo de cada tarea y muestra el total dedicado a cada proyecto."
+    },
     "goyenaga": {
       "category": "Clientes",
       "client": "goyenaga.com",
       "title": "Portafolio Arquitectónico & CMS Headless",
-      "summary": "Plataforma web de alto rendimiento visual con panel de administración para gestión y publicación ágil de obras.",
-      "description": "Sitio web comercial y portafolio interactivo desarrollado para la exhibición de proyectos arquitectónicos. Cuenta con un panel de control autogestionable y privado que permite al cliente publicar nuevas obras, subir planos y actualizar galerías fotográficas en la nube de forma inmediata y sin necesidad de escribir código.",
+      "summary": "Rediseño integral de un sitio WordPress hacia un portafolio arquitectónico autogestionable y fácil de navegar.",
+      "description": "Transformación integral de un sitio WordPress basado en una plantilla genérica en una plataforma a medida que da protagonismo a la obra y trayectoria del arquitecto. La nueva estructura y su navegación más clara facilitan explorar proyectos y contactar al estudio. Un panel privado de gestión permite al cliente publicar obras, subir planos y actualizar galerías de forma independiente, sin escribir código.",
       "role": "Arquitectura Web & Frontend",
       "year": "2026"
     },
